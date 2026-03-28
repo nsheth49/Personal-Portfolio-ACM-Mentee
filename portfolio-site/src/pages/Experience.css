@@ -1,0 +1,67 @@
+
+.experience-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.experience-container h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.experience-container h2 {
+  font-size: 2rem;
+  color: #2563eb;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #dbeafe;
+  padding-bottom: 5px;
+}
+
+.experience-item {
+  background-color: #f0f9ff;
+  padding: 20px 25px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.experience-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+}
+
+.experience-item h3 {
+  color: #1e3a8a;
+  margin-bottom: 5px;
+}
+
+.experience-role,
+.experience-date {
+  font-size: 0.9rem;
+  color: #4b5563;
+}
+
+.experience-item ul {
+  margin-top: 10px;
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.experience-item a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.experience-item a:hover {
+  text-decoration: underline;
+}

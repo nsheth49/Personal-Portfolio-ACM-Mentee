@@ -129,8 +129,8 @@ body {
   text-decoration: underline;
 }
 
-/* CTA */
-.cta-button {
+/* Contact */
+.contact-button {
   display: inline-block;
   margin-top: 15px;
   padding: 12px 25px;
@@ -141,7 +141,7 @@ body {
   text-decoration: none;
 }
 
-.cta-button:hover {
+.contact-button:hover {
   background: #0ea5e9;
 }
 

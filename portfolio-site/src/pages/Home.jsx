@@ -40,10 +40,10 @@ function Home() {
         </div>
       </section>
 
-      {/* CTA */}
+      {/* Contact */}
       <section className="home-section-projects">
         <h2>Let's Work Together</h2>
-        <Link to="/contact" className="cta-button">Contact Me</Link>
+        <Link to="/contact" className="contact-button">Contact Me</Link>
       </section>
     </div>
   );
